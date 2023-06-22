@@ -11,7 +11,7 @@
     "dev-back": "npm --prefix ./backend run dev",
     "lint": "npm --prefix ./frontend run lint && npm --prefix ./backend run lint",
     "fix": "npm --prefix ./frontend run fix && npm --prefix ./backend run fix",
-    "build": "npm run --prefix ./frontend build",
+    "build": "npm i && npm --prefix ./frontend i && npm --prefix ./backend i && npm run --prefix ./frontend build",
     "start": "npm run --prefix ./backend start"
   },
   "keywords": [],
